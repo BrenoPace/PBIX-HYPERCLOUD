@@ -40,4 +40,4 @@ Os relacionamentos criados entre tabelas Fato e tabelas Dimensão podem ser deno
 ### 1.1 Qual a modelagem projetada? ###
 O esquema acima representa uma modelagem ***Snowflake***, em virtude das ramificações das tabelas dimensões com dimensões auxiliares.
 
-Arquivo PBIX: /
+Arquivo PBIX: /Teste Hypercloud Breno Pace.pbix
