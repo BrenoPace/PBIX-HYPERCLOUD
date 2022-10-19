@@ -7,11 +7,9 @@ O conceito de BI ou inteligência de negócios, consiste em gerar informações 
 
 ### 2.	Cite duas ferramentas de ETL: ###
 
-#### Ferramenta de armazenamento de dados: ####
-* Google BigQuery – Serviço de armazenamento de dados em várias nuvens, sem a necessidade de um servidor, ágil e estável.
+* Talend - conjunto de ferramentas da familia ETL (Extração,Transformação e Carga) para integração de dados. Fornece meios para integrar e processar dados com um designer visual amigável.
 
-#### Ferramenta de tratamento de dados: ####
-* MySQL – Dedicada para padronizar, carregar, tratar e extrair grandes bases de dados, sendo de baixa complexidade e alta aplicação.
+* Oracle Data Integrator - plataforma de migração, integração e gerenciamento de grandes fluxos de dados.
 
 ### 3.	Cite três ferramentas de apresentação de dados: ###
 Power BI, Tableau e Qlik Sense. Sendo o Power BI a ferramenta mais utilizada, com uma arquitetura flexível, integração com soluções da Microsoft e confiabilidade se destaca no mercado.
@@ -41,3 +39,5 @@ Os relacionamentos criados entre tabelas Fato e tabelas Dimensão podem ser deno
 
 ### 1.1 Qual a modelagem projetada? ###
 O esquema acima representa uma modelagem ***Snowflake***, em virtude das ramificações das tabelas dimensões com dimensões auxiliares.
+
+Arquivo PBIX: /
