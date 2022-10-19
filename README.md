@@ -31,7 +31,13 @@ Os relacionamentos criados entre tabelas Fato e tabelas Dimensão podem ser deno
 ### 8.	O que significa Drill Down/Drill up? ###
 ***Drill Down*** e ***Drill Up*** são conceitos de hierarquias de informações. No ***Drill Down*** é possível passar de um nível mais alto, para um nível mais baixo de agregação. Exemplo seria identificar dados agregados em anos e direciona-los para meses. No ***Drill Up*** se faz na direção contrária, onde podemos ter as informações correspondentes a municípios e direciona-los para estados. Gerasse assim um escalonamento de informações.
 
+---
+
 ## Teste Técnico ##
 
-### 1.1 Faça um desenho da modelagem deste DataWarehouse relacionando as tabelas:
+### 1. Faça um desenho da modelagem deste DataWarehouse relacionando as tabelas:
 
+![Modelo DW relaciomentos](https://user-images.githubusercontent.com/116115002/196692130-476a1fba-f203-43f8-a2d1-7c49572ba304.png)
+
+### 1.1 Qual a modelagem projetada? ###
+O esquema acima representa uma modelagem ***Snowflake***, em virtude das ramificações das tabelas dimensões com dimensões auxiliares.
